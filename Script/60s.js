@@ -6,11 +6,11 @@
 * @WechatID          墨鱼手记
 * @UpdateTime        2022-04-17
 * @ScriptFunction    快速浏览今天世界新闻
-* @ScriptURL         https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/60s.js
+* @ScriptURL         https://github.com/ddgksf2013/Scripts/raw/main/60s.js
 * ==/UserScript==
 
 [task_local]
-0 9 * * * https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/60s.js, tag=每天60s读懂世界
+0 9 * * * https://github.com/ddgksf2013/Scripts/raw/main/60s.js, tag=每天60s读懂世界
 
 */
 
