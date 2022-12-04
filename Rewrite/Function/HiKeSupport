@@ -1,0 +1,18 @@
+// ==UserScript==
+// @Name              修复Sileo下载嗨客源错误问题
+// @Author            
+// @ForHelp           
+// @TgChannel         
+// @Contribute        
+// @Feedback         
+// @WechatID         
+// @UpdateTime        2022-12-4
+// @Attention         如需引用请注明出处，谢谢合作！
+// @Function          
+// @ScriptURL         
+// ==/UserScript==
+
+
+
+#修复Sileo下载嗨客源错误问题
+^http:\/\/repo\.qqtlr\.com\/\.\/downloads\.php%3Frequest=\d+\.deb url request-header (GET \/\.\/downloads\.php)%3F request-header $1?
